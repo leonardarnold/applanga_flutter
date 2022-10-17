@@ -18,6 +18,7 @@ With ApplangaFlutter you can get all your translations over the air. It's also
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'Applanga', '~> 2.0.158'
+  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/Applanga"}
 
   s.platform = :ios, '9.0'
 
