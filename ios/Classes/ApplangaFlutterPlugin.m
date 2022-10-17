@@ -1,5 +1,5 @@
 #import "ApplangaFlutterPlugin.h"
-#import "Applanga.h"
+#import "Applanga/Applanga.h"
 #if __has_include(<applanga_flutter/applanga_flutter-Swift.h>)
 #import <applanga_flutter/applanga_flutter-Swift.h>
 #else
@@ -8,7 +8,6 @@
 // https://forums.swift.org/t/swift-static-libraries-dont-copy-generated-objective-c-header/19816
 #import "applanga_flutter-Swift.h"
 #endif
-
 
 @implementation ApplangaFlutterPlugin
 static FlutterMethodChannel *channel = nil;
